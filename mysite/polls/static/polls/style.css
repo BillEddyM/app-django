@@ -1,0 +1,70 @@
+
+body, html {
+    height: 100%;
+}
+body {
+    background: white url("images/background.png") no-repeat;
+
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Color de fondo */
+    min-height: 100vh; /* Para asegurarse de que el fondo cubra toda la altura de la pantalla */
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Centrar el contenido principal */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: button;
+    height: 100vh;
+  }
+  
+  /* Estilos para la lista de preguntas */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los enlaces de las preguntas */
+  ul li a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  ul li a:hover {
+    color: #2980b9;
+  }
+  
+  /* Estilos para el mensaje cuando no hay encuestas disponibles */
+  p {
+    font-style: italic;
+    color: #888;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para los enlaces en el mensaje de encuestas no disponibles */
+  p a {
+    color: #3498db;
+    text-decoration: none;
+  }
